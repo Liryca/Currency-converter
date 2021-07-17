@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel='stylesheet' href='style.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсы валют</title>
+</head>
+
+<body>
+    <!-- <nav>
+    <a href="/">Home</a>
+
+    </nav> -->
+    <div id="root">
+        <input type="button" id="button_show_current">
+    </div>
+
+    <div id="block">
+        <h1>Конвертер валют по курсу НБРБ</h1>
+
+        <div class="courses">
+            <div class="course-item">
+                <div>Курс USD</div>
+                <div class="course-value" id="USD"></div>
+            </div>
+            <div class="course-item">
+                <div>Курс EUR</div>
+                <div class="course-value" id="EUR"></div>
+            </div>
+            <div class="course-item">
+                <div>Курс RUB</div>
+                <div class="course-value" id="RUB"></div>
+            </div>
+        </div>
+
+        <div class="row1">
+            <div class="col">
+                <select class="control">
+                    <option value="BYN" selected>BYN — Рубли</option>
+                </select>
+            </div>
+
+            <div class="col">
+                <select id="select" class="control">
+                    <option value="USD">USD — Доллар США</option>
+                    <option value="EUR">EUR — Евро</option>
+                    <option value="RUB">RUB — Российский рубль</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="col">
+                <input id="input" type="text" class="control" autofocus />
+            </div>
+            <div class="col">
+                <input id="result" type="text" class="control" />
+            </div>
+        </div>
+
+</body>
+<script src="main.js"></script>
+
+</html>
